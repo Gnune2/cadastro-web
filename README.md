@@ -17,7 +17,7 @@ para rodar é necessário ter o node.js instalado
 
 2.  **Instale as Dependências e inicie o prisma:**
     ```bash
-    npm install express  @prisma/client@6.19 bcrypt
+    npm install express  @prisma/client@6.19 bcrypt cors
     ```
     ```bash
     npm install -D prisma@6.19 nodemon
