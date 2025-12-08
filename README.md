@@ -26,9 +26,9 @@ para rodar é necessário ter o node.js instalado
     npx prisma init
     ```
 
-3.  **Configure a Chave da API (API Key):**
+3.  **Configure o banco mongDB:**
     * Crie um arquivo chamado **`.env`** na raiz do projeto.
-    * Adicione sua chave da API de geração de imagens (ex: API Key do Gemini) neste arquivo. **Isso é crucial para o funcionamento da IA.**
+    * Adicione seu link do banco mongoDB **Isso é crucial para o cadastro no banco.**
     ```env
     DATABASE_URL="link do banco mongoDB"
     ```
