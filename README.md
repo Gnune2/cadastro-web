@@ -35,7 +35,7 @@ para rodar é necessário ter o node.js instalado
     
 4.  **Prisma generate**
     ```bash
-     npx prisma generate
+     npx prisma@6.19 generate
     ```
     
 5.  **Inicie o Servidor:**
