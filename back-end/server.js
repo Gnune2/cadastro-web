@@ -1,11 +1,17 @@
 //importações
 const express = require("express");
+const cors = require('cors');
 const { PrismaClient } = require("@prisma/client");
 //inicialiazação
 const app = express();
 const prisma = new PrismaClient();
 const PORT = 3000;
 //middlewares
+const corsOptions = {
+    origin: 'http://127.0.0.1:5500', // Apenas a sua origem frontend está permitida
+    optionsSuccessStatus: 200 // Para navegadores mais antigos
+};
+app.use(cors(corsOptions));
 //json
 app.use(express.json());
 // inicia servidor
